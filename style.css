@@ -66,7 +66,8 @@ h1, p {
 
 /* Stylowanie menu */
 .main-menu {
-  background-color: #333;
+  background-image: linear-gradient(to top, red, white);
+  /* background-color: #333; */
   padding: 0; /* Usuń dodatkowy padding, aby menu miało stałą wysokość */
 }
 
@@ -127,7 +128,7 @@ h1, p {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #2196F3; /* Jasnoniebieski kolor bazowy */
+  background-color: #6e1580; /* Jasnoniebieski kolor bazowy */
   color: white;
   text-decoration: none;
   font-size: 16px;
@@ -144,4 +145,17 @@ h1, p {
 
 .button:active {
   background-color: #1565C0; /* Jeszcze ciemniejszy niebieski przy kliknięciu */
+}
+.button_paczka {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2196F3; /* Jasnoniebieski kolor bazowy */
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  cursor: pointer;
 }
